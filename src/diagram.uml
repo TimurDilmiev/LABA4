@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2210.0" y="-795.5">Objects</node>
+    <node x="1931.0" y="-675.5">Gender</node>
+    <node x="2021.5" y="-435.5">PeopleINT</node>
+    <node x="2072.0" y="-675.5">people</node>
+    <node x="2184.5" y="-435.5">ObjectsACLASS</node>
+    <node x="2199.0" y="-675.5">ObjectsINT</node>
+    <node x="2178.0" y="-35.5">Main</node>
+    <node x="2048.0" y="-295.5">PeopleMOVES</node>
+    <node x="4183.5" y="-35.5">Exception</node>
+    <node x="2298.0" y="-295.5">Place</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PeopleMOVES" target="PeopleINT" relationship="GENERALIZATION">
+      <point x="-40.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ObjectsACLASS" target="ObjectsINT" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ObjectsINT" target="Objects" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="PeopleINT" target="people" relationship="REALIZATION">
+      <point x="40.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7000000000000001" showDependencies="true" x="2211.460577673692" y="-376.5714285714286" />
+  <SelectedNodes>
+    <node>ObjectsACLASS</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
