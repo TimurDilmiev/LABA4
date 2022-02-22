@@ -33,7 +33,7 @@ public class Main {
         System.out.println(dura.whoNamed() + ","); System.out.print(Neznayka.afterThat() + " "); System.out.print(mudila.say1() + ",");
         System.out.print(Neznayka.mustPay() + " "); System.out.println(service.name); System.out.println(Neznayka.ifCant());
         System.out.print(Neznayka.receive(money)); System.out.println(" " + Neznayka.onThis(forms));
-        System.out.println(Neznayka.and() + Neznayka.deleted() + Neznayka.together(dogs) + ",");
+        System.out.println(Neznayka.and() + Neznayka.deleted() + Neznayka.together() + ",");
         System.out.println(dura.then() + " " + dura1.name + withbitch.name);
         System.out.println(home.name + Neznayka.mustlive()  + Neznayki.name + "," + room.name);
         System.out.println(view.name); System.out.println(bads.name + Neznayka.sleep() + " " + Neznayka.name + " " + Neznayka.and() + Roland.name + ".");

@@ -53,25 +53,30 @@ public class PeopleMOVES extends PeopleINT {
     }
 
     public String onThis(ObjectsACLASS f) {
-        return ("На этом" + " " + f.getName() + " " + "были закончены,");
+        try {
+            return "На этом" + " " + f.getName() + " " + "были закончены,";
+        } catch (MyException fdf) {
+            System.out.println(fdf);
+        }
+        return null;
+    }
 
+    public String deleted() {
+        return name + " удалился";
     }
-    public String deleted(){
-        return (name + " удалился");
+    public String together() {
+        return " в сопровождении " + getName();
     }
-    public String together(ObjectsACLASS d){
-       return (" в сопровождении " + d.getName());
+        public String fell() {
+            return ("покатилась на своих коротеньких лапках прямо к");
+        }
+        public String sittoo() {
+            return ("тоже уселась у его ног.");
+        }
+        public String mustlive() {
+            return (" где теперь предстояло жить");
+        }
+        public String sleep() {
+            return ("на них спали");
+        }
     }
-    public String fell(){
-        return ("покатилась на своих коротеньких лапках прямо к");
-    }
-    public String sittoo(){
-        return ("тоже уселась у его ног.");
-    }
-    public String mustlive(){
-        return (" где теперь предстояло жить");
-    }
-    public String sleep(){
-        return ("на них спали");
-    }
-}
